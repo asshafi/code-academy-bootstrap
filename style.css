@@ -20,6 +20,10 @@ body {
 .bg-working-section {
     background: #F4FAFD;
 }
+.checked {
+    color: orange;
+}
+
 /* responsiveness  */
 @media (max-width: 576px) {
     .carousel-item{
