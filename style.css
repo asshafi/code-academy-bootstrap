@@ -11,3 +11,17 @@
     background: #000;
     opacity: 0.6;
 }
+/* responsiveness  */
+@media (max-width: 576px) {
+    .carousel-item{
+        height: 250px;
+    }
+    .carousel-img{
+        height: 40vh;
+    }
+    .carousel-caption h5 {
+    padding-top: 20px;
+    font-size: small;
+}
+
+}
