@@ -1,3 +1,9 @@
+body {
+    overflow-x: hidden;
+    font-family: "Poppins", sans-serif;
+}
+
+
 /* slider  */
 
 .carousel-item::before{
@@ -10,6 +16,9 @@
     right: 0;
     background: #000;
     opacity: 0.6;
+}
+.bg-working-section {
+    background: #F4FAFD;
 }
 /* responsiveness  */
 @media (max-width: 576px) {
