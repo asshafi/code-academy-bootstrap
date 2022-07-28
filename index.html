@@ -205,8 +205,30 @@
                     <P>Get updates on courses, specials and more.</P>
                 </div>
                 <div class="col">
-                    <button type="button" class="btn btn-primary bg-white text-info fw-bold float-lg-end">Register
+                    <button type="button" class="btn btn-primary bg-white text-info fw-bold float-lg-end "
+                        data-bs-toggle="modal" data-bs-target="#staticBackdrop">Register
                         Now</button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">Wnat to Enrole our course ?</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    If you are intested & want to enrole our course then click the next button.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Next</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
